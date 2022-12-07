@@ -1,0 +1,82 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#MainPane {
+	-fx-background-image: url(/resources/mainback.jpg);
+	-fx-background-size: cover;
+	-fx-background-position: center center;
+}
+
+.container {
+	-fx-background-color: rgba(255.0, 220.0, 200.0, 0.5);
+	-fx-background-radius: 4.0px;
+}
+
+.btn {
+	-fx-border-radius: 4.0px;
+	-fx-background-color: rgba(70.0, 60.0, 90.0, 4.0);
+	-fx-text-fill: #fff;
+	-fx-border-color: rgba(255.0, 255.0, 255.0, 4.0);
+	-fx-padding: 8.0px 12.0px;
+	-fx-prompt-text-fill: #fff;
+	-fx-cursor: hand ;
+}
+
+.btn:hover {
+	-fx-background-color: rgba(50.0, 20.0, 100.0, 4.0);
+	-fx-border-color: rgba(250.0, 20.0, 70.0, 4.0);
+	-fx-cursor: hand;
+}
+
+.container Label {
+	-fx-text-fill: rgba(0.0, 0.0, 100.0, 1.0);
+	-fx-effect: dropshadow(gaussian, rgba(255.0, 255.0, 255.0, 0.5), 0.5, 0.5, 0.5, 1.0); 
+}
+
+#Imagebook {
+	-fx-effect: dropshadow(gaussian, rgba(0.0, 0.0, 0.0, 0.8), 1.0, 1.0, 1.0, 1.0); 
+}
+
+#InUMainPane {
+	-fx-background-image: url(/resources/inUMainBack.jpg);
+	-fx-background-size: cover;
+	-fx-background-position: center center;	
+}
+
+.inUContainer{
+	-fx-background-color: rgba(255.0, 220.0, 200.0, 0.5);
+	-fx-background-radius: 4.0px;
+	-fx-effect: dropshadow(gaussian, rgba(0.0, 0.0, 0.0, 0.2), 1.0, 1.0, 1.0, 1.0); 
+}
+
+#SMainPane{
+	-fx-background-image: url(/resources/sMainBack.jpg);
+	-fx-background-size: cover;
+	-fx-background-position: center center;	
+}
+
+.sbookBox{
+	-fx-background-radius: 4.0px;
+	-fx-opacity: 80.0%;
+}
+
+#InBMainPane {
+	-fx-background-image: url(/resources/inBMainBack.jpg);
+	-fx-background-size: cover;
+	-fx-background-position: center center;	
+}
+#UpBMainPane {
+	-fx-background-image: url(/resources/upBack.jpg);
+	-fx-background-size: cover;
+	-fx-background-position: center center;	
+}
+
+#InforMainPane{
+	-fx-background-image: url(/resources/inforBack.jpg);
+	-fx-background-size: cover;
+	-fx-background-position: center center;	
+}
+
+#genreMainPane{
+	-fx-background-image: url(/resources/genreBack.jpg);
+	-fx-background-size: cover;
+	-fx-background-position: center center;		
+}

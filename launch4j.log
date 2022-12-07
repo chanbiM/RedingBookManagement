@@ -1,0 +1,12 @@
+
+
+Version:	3.4
+CmdLine:	C:\Users\student\Desktop\DB_Project\readingMP.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Users\student\Desktop\DB_Project\.
+Bundled JRE:	jre1.8.0_291
+Check launcher:	C:\Users\student\Desktop\DB_Project\jre1.8.0_291\bin\javaw.exe (OK)
+Launcher:	C:\Users\student\Desktop\DB_Project\jre1.8.0_291\bin\javaw.exe
+Launcher args:	-jar "C:\Users\student\Desktop\DB_Project\readingMP.exe"
+Args length:	56/32768 chars
+Exit code:	0

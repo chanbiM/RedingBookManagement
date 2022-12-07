@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="InUMainPane" prefHeight="600.0" prefWidth="600.0" stylesheets="@Layout.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.InUController">
+   <children>
+      <Pane layoutX="90.0" layoutY="147.0" prefHeight="306.0" prefWidth="420.0" styleClass="inUContainer">
+         <children>
+            <TextField fx:id="txtNickname" layoutX="129.0" layoutY="34.0" prefHeight="34.0" prefWidth="189.0" />
+            <TextField fx:id="txtId" layoutX="129.0" layoutY="97.0" prefHeight="34.0" prefWidth="189.0" />
+            <PasswordField fx:id="pfPassword" layoutX="129.0" layoutY="161.0" prefHeight="34.0" prefWidth="189.0" />
+            <PasswordField fx:id="pfAgainPassword" layoutX="129.0" layoutY="225.0" prefHeight="34.0" prefWidth="189.0" />
+            <Button layoutX="329.0" layoutY="97.0" mnemonicParsing="false" onAction="#jungbockHakin" prefHeight="34.0" prefWidth="82.0" styleClass="btn" text="중복확인" />
+            <ImageView fitHeight="256.0" fitWidth="113.0" layoutX="8.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/InUTextbox.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Button layoutX="202.0" layoutY="493.0" mnemonicParsing="false" onAction="#insertUser" prefHeight="43.0" prefWidth="167.0" styleClass="btn" text="가입하기">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="87.0" fitWidth="139.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/Rogo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="mainChangeBtn" layoutX="495.0" layoutY="14.0" mnemonicParsing="false" onAction="#mainChangeScene" prefHeight="34.0" prefWidth="91.0" styleClass="btn" text="돌아가기" />
+      <ImageView fitHeight="100.0" fitWidth="211.0" layoutX="199.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/IUserRogo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
